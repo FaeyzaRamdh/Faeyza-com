@@ -1,0 +1,121 @@
+* 
+{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.logo:hover {
+    color: bisque;
+    text-shadow: 0 0 25px bisque, 0 0 50px bisque;
+    transform: scale(1.1);
+}
+
+span {
+    color: bisque;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2rem;
+}
+
+.navbar a {
+    font-size: 18px;
+    justify-content: center;
+    display: flex;
+    padding: 1rem 2rem;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: color 0.3s ease, border-color 0.3s ease; /
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: bisque;
+    border-bottom: 3px solid bisque;
+}
+
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: 7% 0 12px;
+}
+
+.home-content {
+    max-width: 800px;
+    padding: 20px; 
+}
+
+.home-content h3 {
+    font-size: 42px;
+    margin-bottom: 10px; 
+}
+
+.home-content h1 {
+    font-size: 62px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: white;
+    position: relative;
+}
+.card{
+    padding: 40px;
+}
+
+.div-utama{
+    padding: 40px;
+}
+
+.div-kedua{
+    padding: 40px;
+}
+
+
+      
